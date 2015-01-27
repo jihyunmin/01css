@@ -1,1 +1,91 @@
 /* custom css */
+
+/*
+center header - not big deal
+unordered list (ul) with 3 list items
+add color in a controlled way
+width of unordered list and width of boxes to get them side by side (stacked to side-by-side)
+links
+
+*/
+
+h1 {
+font-family: Georgia;
+text-transform: lowercase;
+text-align: center;
+font-size: 36pt;
+}
+
+body {
+font-family: Georgia;
+text-transform: lowercase;
+font-size: 12pt;
+width: 100%;
+}
+/* margin: 1px 3px 10px 50px;
+padding: 1% 2% 3% 4%;				unit relative to the width of the page*/
+
+ul {
+list-style-type: none;
+}
+
+
+li.one {
+background-color: #FFAD5C;
+width: 30%;
+padding: 15px;
+border: 2px dotted black;
+margin: 1px 0px 0px 0px;
+float: left;
+
+}
+
+li.two {
+background-color: #FFFF99;
+width: 30%;
+padding: 15px;
+border: 2px dotted black;
+margin: 1px;
+float: left;
+
+}
+
+li.three {
+background-color: #C0E6FF;
+width: 30%;
+padding: 15px;
+border: 2px dotted black;
+margin: 0px 0px 0px 1px;
+float: left;
+
+}
+
+a:link {
+color: #000066;
+}
+
+a:visited {
+color: black;
+}
+
+
+a:hover {
+color: #804C1A;
+font-variant: small-caps;
+font-size: 16pt;
+
+}
+
+a:active {
+color: white;
+}
+
+
+li.two a:hover {
+color: #009933;
+}
+
+li.three a:hover {
+color: #0033CC;
+}
+
